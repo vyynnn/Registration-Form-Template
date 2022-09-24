@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="ex: Adelan, Reyvine A." required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter Birth Date" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Email</label>
+                            <input type="text" placeholder="ex: example@gmail.com" required>
+                        </div>
+                        
+                        <div class="input-fields">
+                            <label>Mobile Number</label>
+                            <input type="text" placeholder="ex: 09503456232" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Student Id</label>
+                            <input type="text" placeholder="ex: 108343070012" required>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Year Level</label>
+                          <select  name="Year Level" id="year"  required >
+                            <option value="First" class="level">---Choose Year Level---</option>
+                            <option value="eleven">Grade 11</option>
+                            <option value="twelve">Grade 12</option>
+                            <option value="First">First Year</option>
+                            <option value="Second">Second Year</option>
+                            <option value="Third">Third Year</option>
+                            <option value="Fourth">Fourth Year</option>
+                          </select>
+                        </div>
+
+                        <div class="input-fields">
+                            <label>Degree Program</label>
+                          <select name="Degree Program" id="degree" required>
+                            <option value="DG" class="DG" >---Choose Degree---
+                            </option>
+
+                            <option value="BSIT">BS in Information Technology
+                            </option>
+                            
+                            <option value="BSCS">BS in Computer Science</option>
+                            
+                         </select>
+                        </div>
+
+                        <div class="input-fields">
+                            <span>  <input class="radio" type="radio" name="gender" id="dot-1" required>
+                                <input class="radio" type="radio" name="gender" id="dot-2">Gender </span>
+                          <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                        
+                            <label for="dot-2">
+                                <span class="dot one"></span>
+                                <span class="gender">FeMale</span>
+                            </label>
+                        </div>
+                          </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--Address-->
+                <div class="details personal">
+                    <span class="title">Address</span>
+
+
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>Address line 1</label>
+                            <input type="text"  required>
+                        </div>
+
+                        
+
+                        <div class="input-fields">
+                            <label>City</label>
+                            <input type="text" required>
+                        </div>
+                        
+                        <div class="input-fields">
+                            <label>State/Province</label>
+                            <input class="state" type="text"  required>
+                        </div>
+                        
+                        <div class="input-fields bot">
+                            <label >Postal Code</label>
+                            <input class="zip" type="text" required>
+                        </div>
+                    
+                     
+                    
+
+
+
+                    <!--Guardian Form-->
+                    <div class="details personal">
+                        <span class="title">Guardian Information</span>
+    
+    
+                        <div class="fields">
+                            <div class="input-fields">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="ex: Adelan, Reyvine A." required>
+                            </div>
+    
+                            <div class="input-fields">
+                                <label>Contact Number</label>
+                                <input type="text" placeholder="ex: 09123456781" required>
+                            </div>
+    
+                            <div class="input-fields">
+                                <label>Relation</label>
+                                <input type="text" placeholder="ex: mother" required>
+                            </div>
+                            
+                            <div class="input-fields">
+                                <label>Complete Address</label>
+                                <input type="text" class="add" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="submit">
+                        <span class="btnsubmit">Submit</span>
+                        <i class="fa fa-arrow-circle-right"aria-hidden="true"></i>
+
+                    </button>
+
+
+                          </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
